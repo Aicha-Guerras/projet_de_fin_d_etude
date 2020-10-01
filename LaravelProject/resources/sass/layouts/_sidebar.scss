@@ -1,0 +1,26 @@
+.about_contact
+{
+    position: relative;
+    display: flex;
+    background: #dd9001;
+    color: #fff;
+    padding: 30px 40px;
+    .about_us
+    {
+        position: relative;
+        float: left;
+        width: 50%;
+        padding-right: 10px;
+    }
+    .contact_us
+    {
+        position: relative;
+        float: right;
+        width: 50%;
+    }
+}
+footer {
+    background: #bdbaba;
+    padding: 20px;
+    text-align: center;
+}

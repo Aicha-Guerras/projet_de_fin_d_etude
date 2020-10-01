@@ -1,0 +1,108 @@
+body
+{background: #fbfbfb;
+padding: 0;
+margin: 0;
+}
+.content_lecon
+{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    background: #fbfbfb;
+    h1
+    {
+        text-align: center;
+        padding-top: 30px;
+        color: #203052;
+    }
+    .container_lecon
+    {
+        background: #fbfbfb;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        .box
+        {
+            flex-wrap: wrap;
+            width: 650px;
+            height: 100px;
+            margin: 15px 30px;
+            box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
+            6px 6px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 3px;
+            background: #fbfbfb;
+            overflow: hidden;
+            .contentBox
+            {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                .id_lecon
+                {
+                    position: relative;
+                    width: 60px;
+                    height: 60px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;   
+                    margin: auto;
+                    border-radius: 50%;
+                    padding: 10px;
+                    //font-size: 10px;
+                    font-weight: 700;
+                    background: $yellow_collor;
+                    color: #fff;
+                }
+                .titre_lecon
+                {
+                    font-size: 1.55em;
+                    width: 50%;
+                    padding-left: 20PX;
+                    color: #203052;
+                }
+                .bouton
+                {
+                    float: right;
+                    width: 40%;
+                    display: flex;
+                    justify-content: right;
+
+                    a
+                    {
+                        padding: 8px;
+                        margin: 0 8px;
+                        border-radius: 3px;
+                        background: $yellow_collor;
+                        color: #fff;
+                        font-size: 12px;
+                        text-decoration: none;
+                    } 
+                    a:hover 
+                    {
+                        span
+                        {
+                            display: block;
+                            transform: scale(0.98);
+                        } 
+                    } 
+                }
+            } 
+        }
+        .box:hover
+        {
+            box-shadow: inset -6px -6px 20px rgba(255, 255, 255, 0.5),
+                    inset  6px 6px 20px rgba(0, 0, 0, 0.05);
+
+            .contentBox
+            {
+                transform: scale(0.98);
+            }
+        }
+    }
+}

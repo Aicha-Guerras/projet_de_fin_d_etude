@@ -1,0 +1,48 @@
+.content_exercice
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    margin-top: 30px;
+    .exercice
+    {
+        background: #f0f0f0;
+        padding: 20px;
+        flex-direction: column;
+        h1
+        {
+            text-align: center;
+            color: #203052;
+        }
+        .titre
+        {
+            text-align: center;
+            padding-top: 20px;
+            color: $yellow_collor;
+            font-size: 1.4em;
+        }
+        form
+        {
+            label
+            {
+                display: block;
+                padding-top: 20px;
+                color: #203052;
+                font-size: 1.2em;
+            }
+            .submit
+            {
+                padding: 8px 20px;
+                border: 0;
+                margin-top: 20px;
+                width: 80px;
+                padding: 8px;
+                border-radius: 3px;
+                background: $yellow_collor;
+                color: #fff;
+                font-size: 1.1em;
+                text-decoration: none;
+            }
+        }
+    }
+}
